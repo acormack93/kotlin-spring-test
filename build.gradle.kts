@@ -30,6 +30,10 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.security:spring-security-test")
 	implementation ("org.springframework.boot:spring-boot-starter-validation")
+
+	// OpenAPI
+	implementation("org.springdoc:springdoc-openapi-kotlin:1.5.1")
+	implementation("org.springdoc:springdoc-openapi-ui:1.5.13")
 }
 
 tasks.withType<KotlinCompile> {
