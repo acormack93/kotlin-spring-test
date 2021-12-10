@@ -23,6 +23,13 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 
+	// API testing
+	testImplementation("com.intuit.karate:karate-junit5:1.0.1")
+	testImplementation("net.masterthought:cucumber-reporting:5.5.3")
+	testImplementation("commons-io:commons-io:2.5")
+	testImplementation("org.springframework.boot:spring-boot-starter-test")
+	testImplementation("org.springframework.security:spring-security-test")
+	implementation ("org.springframework.boot:spring-boot-starter-validation")
 }
 
 tasks.withType<KotlinCompile> {
